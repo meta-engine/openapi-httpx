@@ -4,10 +4,10 @@ This repository is for documentation and issue tracking.
 
 ## Reporting Issues
 
-Please report bugs and feature requests via [GitHub Issues](https://github.com/meta-engine/openapi-fastapi/issues).
+Please report bugs and feature requests via [GitHub Issues](https://github.com/meta-engine/openapi-httpx/issues).
 
 When reporting a bug, please include:
-- Package version (`pip show metaengine-openapi-fastapi`)
+- Package version (`pip show metaengine-openapi-httpx`)
 - Python version (`python --version`)
 - Operating system
 - OpenAPI specification (minimal reproducible example)
@@ -27,7 +27,7 @@ When suggesting a feature:
 ## Questions and Support
 
 For general questions and support:
-- Search [existing issues](https://github.com/meta-engine/openapi-fastapi/issues)
+- Search [existing issues](https://github.com/meta-engine/openapi-httpx/issues)
 - Email: info@metaengine.eu
 
 ## Source Code

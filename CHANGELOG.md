@@ -1,6 +1,6 @@
 # Changelog
 
-See the [PyPI releases page](https://pypi.org/project/metaengine-openapi-fastapi/#history) for the full version history.
+See the [PyPI releases page](https://pypi.org/project/metaengine-openapi-httpx/#history) for the full version history.
 
 ## 1.0.0
 

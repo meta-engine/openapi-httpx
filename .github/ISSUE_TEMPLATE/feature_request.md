@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest a new feature or improvement for MetaEngine OpenAPI Python FastAPI
+about: Suggest a new feature or improvement for MetaEngine OpenAPI Python httpx
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''

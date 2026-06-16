@@ -1,7 +1,7 @@
-# MetaEngine OpenAPI Python FastAPI
+# MetaEngine OpenAPI Python httpx
 
-[![PyPI version](https://img.shields.io/pypi/v/metaengine-openapi-fastapi.svg)](https://pypi.org/project/metaengine-openapi-fastapi/)
-[![Python versions](https://img.shields.io/pypi/pyversions/metaengine-openapi-fastapi.svg)](https://pypi.org/project/metaengine-openapi-fastapi/)
+[![PyPI version](https://img.shields.io/pypi/v/metaengine-openapi-httpx.svg)](https://pypi.org/project/metaengine-openapi-httpx/)
+[![Python versions](https://img.shields.io/pypi/pyversions/metaengine-openapi-httpx.svg)](https://pypi.org/project/metaengine-openapi-httpx/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Generate idiomatic Python clients and models from OpenAPI/Swagger specifications.**
@@ -14,8 +14,8 @@ Pydantic v2 models and an async `httpx` client — typed, with optional docstrin
 
 ## Quick Links
 
-- **PyPI Package**: [metaengine-openapi-fastapi](https://pypi.org/project/metaengine-openapi-fastapi/)
-- **NuGet Package**: [MetaEngine.Python.OpenApi.FastApi](https://www.nuget.org/packages/MetaEngine.Python.OpenApi.FastApi)
+- **PyPI Package**: [metaengine-openapi-httpx](https://pypi.org/project/metaengine-openapi-httpx/)
+- **NuGet Package**: [MetaEngine.Python.OpenApi.Httpx](https://www.nuget.org/packages/MetaEngine.Python.OpenApi.Httpx)
 - **Website**: [metaengine.eu](https://www.metaengine.eu)
 
 ---
@@ -36,7 +36,7 @@ Pydantic v2 models and an async `httpx` client — typed, with optional docstrin
 ## Installation
 
 ```bash
-pip install metaengine-openapi-fastapi
+pip install metaengine-openapi-httpx
 ```
 
 Pre-built wheels are published for Linux (x86_64, aarch64), macOS (Apple Silicon + Intel), and Windows (x64).
@@ -53,13 +53,13 @@ Pre-built wheels are published for Linux (x86_64, aarch64), macOS (Apple Silicon
 ## Quick Start
 
 ```bash
-metaengine-openapi-fastapi <input> <output> [options]
+metaengine-openapi-httpx <input> <output> [options]
 ```
 
 ### Recommended Setup
 
 ```bash
-metaengine-openapi-fastapi api.yaml ./generated \
+metaengine-openapi-httpx api.yaml ./generated \
   --camel-case-aliases \
   --documentation
 ```
@@ -68,13 +68,13 @@ metaengine-openapi-fastapi api.yaml ./generated \
 
 ```bash
 # From a URL
-metaengine-openapi-fastapi https://api.example.com/openapi.json ./generated
+metaengine-openapi-httpx https://api.example.com/openapi.json ./generated
 
 # Filter by OpenAPI tags
-metaengine-openapi-fastapi api.yaml ./generated --include-tags orders,users
+metaengine-openapi-httpx api.yaml ./generated --include-tags orders,users
 
 # Strict spec validation + verbose logging
-metaengine-openapi-fastapi api.yaml ./generated --strict-validation --verbose
+metaengine-openapi-httpx api.yaml ./generated --strict-validation --verbose
 ```
 
 ---
@@ -123,7 +123,7 @@ class Order(BaseModel):
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/meta-engine/openapi-fastapi/issues)
+- **Issues**: [GitHub Issues](https://github.com/meta-engine/openapi-httpx/issues)
 - **Email**: info@metaengine.eu
 - **Website**: [metaengine.eu](https://www.metaengine.eu)
 
@@ -137,6 +137,6 @@ MIT License - see [LICENSE](./LICENSE) file for details.
 
 ## About This Repository
 
-This is the **documentation and issue tracking repository** for MetaEngine OpenAPI Python FastAPI. The package is published to [PyPI](https://pypi.org/project/metaengine-openapi-fastapi/).
+This is the **documentation and issue tracking repository** for MetaEngine OpenAPI Python httpx. The package is published to [PyPI](https://pypi.org/project/metaengine-openapi-httpx/).
 
 Source code is proprietary, but the package is free to use under the MIT license.

@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a bug or issue with MetaEngine OpenAPI Python FastAPI
+about: Report a bug or issue with MetaEngine OpenAPI Python httpx
 title: '[BUG] '
 labels: bug
 assignees: ''
@@ -18,7 +18,7 @@ A clear and concise description of the bug.
 
 ## Steps to Reproduce
 
-1. Run command: `metaengine-openapi-fastapi ...`
+1. Run command: `metaengine-openapi-httpx ...`
 2. See error
 
 ## Expected Behavior
