@@ -2,6 +2,10 @@
 
 See the [PyPI releases page](https://pypi.org/project/metaengine-openapi-httpx/#history) for the full version history.
 
+## 1.1.0
+
+- Generate Python HTTPX clients for HTTP QUERY operations in OpenAPI 3.2 specifications, including JSON request bodies.
+
 ## 1.0.0
 
 - Initial release — Python code generation from OpenAPI specifications

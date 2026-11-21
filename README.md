@@ -39,6 +39,8 @@ Pydantic v2 models and an async `httpx` client — typed, with optional docstrin
 pip install metaengine-openapi-httpx
 ```
 
+Version 1.1.0 generates Python HTTPX clients for HTTP `QUERY` operations in OpenAPI 3.2 specifications, including JSON request bodies.
+
 Pre-built wheels are published for Linux (x86_64, aarch64), macOS (Apple Silicon + Intel), and Windows (x64).
 
 ---
